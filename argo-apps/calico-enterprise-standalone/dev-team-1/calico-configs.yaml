@@ -40,14 +40,3 @@ spec:
     - group: admissionregistration.k8s.io
       kind: ValidatingWebhookConfiguration
       name: env-custom-configs-ingress-nginx-admission
-#    - group: networking.k8s.io
-#      kind: Ingress
-#      namespace: tigera-manager
-#      name: tigera-manager-man
-#    - group: networking.k8s.io
-#      kind: Ingress
-#      namespace: tigera-manager
-#      name: tigera-manager-mcm
-#    - group: projectcalico.org
-#      kind: LicenseKey
-#      name: default
