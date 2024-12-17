@@ -10,7 +10,7 @@ spec:
     namespace: tigera-operator
   source:
     path: charts/calico-enterprise
-    repoURL: 'git@github.com:VerodaClient/argocd-charts.git'
+    repoURL: 'https://github.com/tigera-cs/day2-gitops-workshop.git'
     targetRevision: HEAD
     helm:
       valueFiles:

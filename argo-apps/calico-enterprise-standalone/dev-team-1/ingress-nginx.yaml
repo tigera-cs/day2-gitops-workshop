@@ -9,7 +9,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'git@github.com:VerodaClient/argocd-charts.git'
+    repoURL: 'https://github.com/tigera-cs/day2-gitops-workshop.git'
     path: charts/ingress-nginx
     targetRevision: HEAD
   destination:
