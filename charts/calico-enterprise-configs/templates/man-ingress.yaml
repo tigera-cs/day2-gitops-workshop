@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: tigera-manager-man
+  name: tigera-manager-not-working
   namespace: tigera-manager
   annotations:
     nginx.ingress.kubernetes.io/backend-protocol: HTTPS
