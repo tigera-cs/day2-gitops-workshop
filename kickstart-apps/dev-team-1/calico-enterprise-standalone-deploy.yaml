@@ -22,11 +22,8 @@ spec:
     - sealed-secrets
   - name: wave2
     applications:
-    - ingress-nginx
-  - name: wave3
-    applications:
     - calico-enterprise-1
-  - name: wave4
+  - name: wave3
     applications:
     - calico-ent-configs
 
