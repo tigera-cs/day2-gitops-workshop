@@ -10,7 +10,7 @@ spec:
     namespace: argocd
   source:
     path: argo-apps/calico-enterprise-standalone/dev-team-1
-    repoURL: 'https://github.com/tigera-cs/day2-gitops-workshop.git'
+    repoURL: 'CHANGEME'
     targetRevision: HEAD
   project: default
   syncPolicy:

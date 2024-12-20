@@ -10,7 +10,7 @@ spec:
     namespace: tigera-operator
   source:
     path: charts/calico-enterprise
-    repoURL: 'https://github.com/tigera-cs/day2-gitops-workshop.git'
+    repoURL: 'CHANGEME'
     targetRevision: HEAD
     helm:
       valueFiles:
