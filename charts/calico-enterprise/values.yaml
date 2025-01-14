@@ -14,7 +14,13 @@ tigera-operator:
       - cidr: 10.48.0.0/24
         blockSize: 26
         encapsulation: None
+        natOutgoing: Disabled
+        disabled: false
+      - cidr: 10.48.1.0/24
+        blockSize: 26
+        encapsulation: None
         natOutgoing: Enabled
+        disabled: true
 
   monitor:
     enabled: true
