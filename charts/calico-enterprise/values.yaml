@@ -15,12 +15,12 @@ tigera-operator:
         blockSize: 26
         encapsulation: None
         natOutgoing: Disabled
-        disabled: false
+        nodeSelector: all()
       - cidr: 10.48.1.0/24
         blockSize: 26
         encapsulation: None
         natOutgoing: Enabled
-        disabled: true
+        nodeSelector: !all()
 
   monitor:
     enabled: true
