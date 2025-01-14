@@ -8,6 +8,13 @@ tigera-operator:
     variant: TigeraSecureEnterprise
     imagePullSecrets:
       - name: tigera-pull-secret
+    calicoNetwork:
+      bgp: Enabled
+      ipPools:
+      - cidr: 10.48.0.0/24
+        blockSize: 26
+        encapsulation: None
+        natOutgoing: Enabled
 
   monitor:
     enabled: true
