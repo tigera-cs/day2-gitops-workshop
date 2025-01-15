@@ -26,4 +26,7 @@ spec:
   - name: wave3
     applications:
     - calico-ent-configs
+  - name: wave4
+    applications:
+    - base-policies
 
