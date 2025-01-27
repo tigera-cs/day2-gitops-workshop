@@ -17,3 +17,7 @@ tigera-operator:
 
   compliance:
     enabled: false
+
+  defaultFelixConfiguration:
+    enabled: false
+    flowLogsFlushInterval: 10s
