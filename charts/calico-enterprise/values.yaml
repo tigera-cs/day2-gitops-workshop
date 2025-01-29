@@ -1,7 +1,7 @@
 standalonecluster:
   enabled: true
 tigera-operator:
-  imagePullSecrets: # ideally we should not need this but there could be a bug in the helm-charts
+  imagePullSecrets:
     tigera-pull-secret: unusedvalue
   installation:
     enabled: true
