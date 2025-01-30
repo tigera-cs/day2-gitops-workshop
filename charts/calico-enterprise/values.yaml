@@ -19,5 +19,5 @@ tigera-operator:
     enabled: false
 
   defaultFelixConfiguration:
-    enabled: false
+    enabled: true
     flowLogsFlushInterval: 10s
