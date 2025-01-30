@@ -49,3 +49,7 @@ spec:
       name: '*'
       jsonPointers:
         - /spec
+    - group: operator.tigera.io
+      kind: DefaultFelixConfiguration
+      jsonPointers:
+        - /spec/flowLogsFlushInterval
