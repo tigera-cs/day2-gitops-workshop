@@ -53,3 +53,7 @@ spec:
       kind: DefaultFelixConfiguration
       jsonPointers:
         - /spec/flowLogsFlushInterval
+    - group: projectcalico.org
+      kind: FelixConfiguration
+      jsonPointers:
+        - /spec/flowLogsFlushInterval
