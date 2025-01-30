@@ -24,5 +24,5 @@ version: 0.1.0
 appVersion: "1.16.0"
 dependencies:
   - name: tigera-operator
-    version: 3.19.4 #3.18.5-calient-0.dev-35-g75dab5e0970b-dirty #This was 3.18.1.
+    version: 3.19.4
     repository: https://leon-ee-charts.s3.ca-central-1.amazonaws.com 
