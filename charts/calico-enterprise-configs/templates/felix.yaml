@@ -1,0 +1,15 @@
+apiVersion: projectcalico.org/v3
+kind: FelixConfiguration
+metadata:
+  name: default
+spec:
+  bpfConnectTimeLoadBalancing: TCP
+  bpfEnabled: false
+  bpfHostNetworkedNATWithoutCTLB: Enabled
+  bpfLogLevel: ""
+  floatingIPs: Disabled
+  healthPort: 9099
+  logSeverityScreen: Info
+  reportingInterval: 0s
+  vxlanVNI: 4096
+  flowLogsFlushInterval: 10s
