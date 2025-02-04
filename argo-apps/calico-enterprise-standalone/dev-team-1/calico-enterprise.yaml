@@ -45,15 +45,3 @@ spec:
     - kind: Secret
       jsonPointers:
         - /data
-    - kind: ManagedCluster
-      name: '*'
-      jsonPointers:
-        - /spec
-    - group: operator.tigera.io
-      kind: DefaultFelixConfiguration
-      jsonPointers:
-        - /spec/flowLogsFlushInterval
-    - group: projectcalico.org
-      kind: FelixConfiguration
-      jsonPointers:
-        - /spec/flowLogsFlushInterval
