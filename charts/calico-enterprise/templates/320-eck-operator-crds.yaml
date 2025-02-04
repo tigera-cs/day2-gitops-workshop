@@ -1,3 +1,5 @@
+{{- if eq .Values.tigeraOperatorVersion "3.20" }}
+
 # ECK operator CRDs.
 ---
 # Source: crds/eck/01-crd-eck-agent.yaml
@@ -10224,3 +10226,4 @@ spec:
       storage: true
       subresources:
         status: {}
+{{- end }}

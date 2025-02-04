@@ -1,3 +1,5 @@
+{{- if eq .Values.tigeraOperatorVersion "3.19" }}
+
 # Tigera Operator and Calico Enterprise CRDs
 ---
 # Source: crds/operator.tigera.io_amazoncloudintegrations.yaml
@@ -34164,3 +34166,4 @@ status:
     plural: ""
   conditions: []
   storedVersions: []
+{{- end }}

@@ -1,3 +1,5 @@
+{{- if eq .Values.tigeraOperatorVersion "3.19" }}
+
 # Prometheus operator CRDs.
 ---
 # Source: crds/01-crd-alertmanagerconfigs.yaml
@@ -46947,3 +46949,4 @@ spec:
     storage: true
     subresources:
       status: {}
+{{- end }}

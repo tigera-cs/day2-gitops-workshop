@@ -1,5 +1,4 @@
-standalonecluster:
-  enabled: true
+tigeraOperatorVersion: "3.19"
 tigera-operator:
   imagePullSecrets:
     tigera-pull-secret: unusedvalue
