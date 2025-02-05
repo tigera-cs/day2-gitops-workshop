@@ -1,4 +1,4 @@
-tigeraOperatorVersion: "3.19"
+tigeraOperatorVersion: "3.20"
 tigera-operator:
   imagePullSecrets:
     tigera-pull-secret: unusedvalue
